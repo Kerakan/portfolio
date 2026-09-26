@@ -90,12 +90,12 @@ params:
     title: "Ignacio Bueno."
     description: "Game Design Portfolio"
     content: "Game Design Portfolio"
-    image: images/GothTit.jpg
+    image: /portfolio/images/GothTit.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
@@ -110,7 +110,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/portfolio/images/me.png"
     content: |-
       I am a Third Year Student at the University of Seville pursuing a Double Bachelor's in Mathematics and Statistics. I spend my free time building systems and mechanics, treating programming mostly as a means to an end. I've built three game design projects.
 
@@ -169,7 +169,7 @@ params:
 
       - company: "Apple"
         companyUrl: "https://example.com"
-        jobs: 
+        jobs:
         - name: "Junior Software Developer"
           date: "Jan 2020 - Aug 2020"
           featuredItems:
@@ -221,13 +221,13 @@ params:
           Extracurricular Activities
             - Member of the Algorithm Club, participated in local ICPC-style tournaments.
 
-            - Developed end-to-end 3 different projects.
+            - Developed 3 different projects end-to-end.
 
             - Participant in Itch.io Game Jams.
         featuredLink:
-          enable: true
+          enable: false
           name: "My academic record"
-          url: "https://example.com"
+          url: ""
       - title: "High School"
         school:
           name: "IES Antonio Gala."
@@ -269,40 +269,38 @@ params:
     items:
       - title: Project R10T
         content: A 2D combat simulator inspired by the autobattler genre built in C++ using raylib as the renderer.
-        image: images/projects/R10T.png
+        image: /portfolio/images/projects/R10T.png
         featured:
           name: Design Document
-          link: https://hugo-profile.netlify.app
+          link: https://docs.google.com/document/d/1EeU8LJFuWkg7gfx0_Hr1OFPyF6nPJxrEI5vQ37Ab4Ww/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
         badges:
           - "C++"
           - "Raylib"
           - "Game Design"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-      - title: 911 What's your emergency
+            url: https://github.com/Kerakan/R10T
+      - title: "911 What's Your Emergency?"
         content: A short game that takes place in an office, you have to answer the calls and keep watching Eliot.
-        image: /images/projects/converter.jpg
+        image: /portfolio/images/projects/converter.jpg
         featured:
           name: Design Document
-          link: https://django-converter.herokuapp.com
+          link: https://docs.google.com/document/d/1U_0VWNCh0wF6rs-KfWif-tBJnxgOgmxHsf0CfKOG03s/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Unity"
+          - "C#"
+          - "Game Design"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+          - icon: fab fa-itch-io
+            url: https://kerakan.itch.io/911-whats-your-emergency
 
       - title: LOL Difficulty vs Winrate Analysis
-        content: A in-depth document analyzing the correlation between Winrate and Champion difficulty in League of Legends.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Kaggle Analysis
-          link: https://hugo-profile-2.netlify.app
+        content: An in-depth document analyzing the correlation between Winrate and Champion difficulty in League of Legends.
+        image: /portfolio/images/projects/profile2.jpg
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Python"
+          - "Jupyter"
+          - "Data Analysis"
 
   #Contact
   contact:
@@ -323,11 +321,11 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/Kerakan
+      linkedin: https://www.linkedin.com/in/ignacio-bueno-egea-515045330/
 
   # List pages like blogs and posts
   listPages:
@@ -358,3 +356,4 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
