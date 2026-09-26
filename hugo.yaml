@@ -282,7 +282,7 @@ params:
             url: https://github.com/Kerakan/R10T
       - title: "911 What's Your Emergency?"
         content: A short game that takes place in an office, you have to answer the calls and keep watching Eliot.
-        image: /portfolio/images/projects/converter.jpg
+        image: images/projects/911.png
         featured:
           name: Design Document
           link: https://docs.google.com/document/d/1U_0VWNCh0wF6rs-KfWif-tBJnxgOgmxHsf0CfKOG03s/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
@@ -296,7 +296,7 @@ params:
 
       - title: LOL Difficulty vs Winrate Analysis
         content: An in-depth document analyzing the correlation between Winrate and Champion difficulty in League of Legends.
-        image: /portfolio/images/projects/profile2.jpg
+        image: images/projects/Kaggle.png
         badges:
           - "Python"
           - "Jupyter"
