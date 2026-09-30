@@ -113,9 +113,9 @@ params:
     image: "/portfolio/images/IgnBueno2.jpeg"
     roundImage: false
     content: |-
-      I am a Third Year Student at the University of Seville pursuing a Double Bachelor's in Mathematics and Statistics. I spend my free time building systems and mechanics, treating programming mostly as a means to an end. I've built three game design projects.
+      I am a Third-Year Student at the University of Seville pursuing a Double Bachelor's in Mathematics and Statistics. I spend my free time building systems and mechanics, treating programming mostly as a means to an end. I've built three game design projects.
 
-      I am currently developing a creative project with code name "Project BURD" in which I am following the iteration loop from **Jesse Schell's** *The Art of Game Design*. I am finishing up the first build to playtest on this project. My goal is a game design internship where I can do exactly this, with a team of talented engineers and artists.
+      I am currently developing a creative project codenamed "Project BURD" in which I am following the iteration loop from **Jesse Schell's** *The Art of Game Design*. I am finishing up the first build to playtest on this project. My goal is a game design internship where I can do exactly this, with a team of talented engineers and artists.
     skills:
       enable: true
       title: "Here are a few technologies I've worked with recently:"
@@ -205,6 +205,48 @@ params:
         - name: "Product Designer"
           date: "Feb 2016 - Mar 2017"
           content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Project R10T
+        content: A combat sandbox for testing team compositions, trait synergies and balance, with 17 champions and JSON-driven stats.
+        image: /portfolio/images/R10t.gif
+        featured:
+          name: Design Document
+          link: https://docs.google.com/document/d/1EeU8LJFuWkg7gfx0_Hr1OFPyF6nPJxrEI5vQ37Ab4Ww/edit?usp=sharing
+        badges:
+          - "C++"
+          - "Raylib"
+          - "Game Design"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Kerakan/R10T
+      - title: "911 What's Your Emergency?"
+        content: A five-minute horror game where seven emergency calls compete for your attention while a threat stalks your office.
+        image: images/projects/911.png
+        featured:
+          name: Design Document
+          link: https://docs.google.com/document/d/1U_0VWNCh0wF6rs-KfWif-tBJnxgOgmxHsf0CfKOG03s/edit?usp=sharing
+        badges:
+          - "Unity"
+          - "C#"
+          - "Game Design"
+        links:
+          - icon: fab fa-itch-io
+            url: https://kerakan.itch.io/911-whats-your-emergency
+
+      - title: LOL Difficulty vs Winrate Analysis
+        content: An in-depth document analyzing the correlation between Winrate and Champion difficulty across different rank brackets in League of Legends.
+        image: images/KaggleFinal.png
+        badges:
+          - "Python"
+          - "Jupyter"
+          - "Data Analysis"
+        featured:
+          name: Analysis Notebook
+          link: https://www.kaggle.com/code/ignaciobuenoegea/lol-champions-difficulty-and-winrate-patch-25-13
 
   # Education
   education:
@@ -263,49 +305,7 @@ params:
         content: Contributed to a open source project.
         url: https://example.com
 
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Project R10T
-        content: A combat sandbox for testing team compositions, trait synergies and balance, with 17 champions and JSON-driven stats.
-        image: /portfolio/images/R10t.gif
-        featured:
-          name: Design Document
-          link: https://docs.google.com/document/d/1EeU8LJFuWkg7gfx0_Hr1OFPyF6nPJxrEI5vQ37Ab4Ww/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
-        badges:
-          - "C++"
-          - "Raylib"
-          - "Game Design"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/Kerakan/R10T
-      - title: "911 What's Your Emergency?"
-        content: A five-minute horror game where seven emergency calls compete for your attention while a threat stalks your office.
-        image: images/projects/911.png
-        featured:
-          name: Design Document
-          link: https://docs.google.com/document/d/1U_0VWNCh0wF6rs-KfWif-tBJnxgOgmxHsf0CfKOG03s/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
-        badges:
-          - "Unity"
-          - "C#"
-          - "Game Design"
-        links:
-          - icon: fab fa-itch-io
-            url: https://kerakan.itch.io/911-whats-your-emergency
-
-      - title: LOL Difficulty vs Winrate Analysis
-        content: An in-depth document analyzing the correlation between Winrate and Champion difficulty accross different rank brackets in League of Legends.
-        image: images/KaggleFinal.png
-        badges:
-          - "Python"
-          - "Jupyter"
-          - "Data Analysis"
-        featured:
-          name: Analysis Notebook
-          link: https://www.kaggle.com/code/ignaciobuenoegea/lol-champions-difficulty-and-winrate-patch-25-13
-
+        
   #Contact
   contact:
     enable: true
