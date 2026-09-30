@@ -14,7 +14,7 @@ languages:
     contentDir: "content"
 params:
   title: "Ignacio Bueno"
-  description: Game Design Portfolio
+  description: Systems & Gameplay Design | Unity, C++, Godot
   # staticPath: ""
   favicon: "Fox.svg"
 
