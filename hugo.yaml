@@ -269,7 +269,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Project R10T
-        content: A 2D combat simulator inspired by the autobattler genre built in C++ using raylib as the renderer.
+        content: A combat sandbox for testing team compositions, trait synergies and balance, with 17 champions and JSON-driven stats.
         image: /portfolio/images/projects/R10T.png
         featured:
           name: Design Document
@@ -280,9 +280,9 @@ params:
           - "Game Design"
         links:
           - icon: fab fa-github
-            url: https://github.com/Kerakan/R10T
+            url: https://github.com/Kerakan/R10t.gif
       - title: "911 What's Your Emergency?"
-        content: A short game that takes place in an office, you have to answer the calls and keep watching Eliot.
+        content: A five-minute horror game where seven emergency calls compete for your attention while a threat stalks your office.
         image: images/projects/911.png
         featured:
           name: Design Document
@@ -296,8 +296,8 @@ params:
             url: https://kerakan.itch.io/911-whats-your-emergency
 
       - title: LOL Difficulty vs Winrate Analysis
-        content: An in-depth document analyzing the correlation between Winrate and Champion difficulty in League of Legends.
-        image: images/projects/Kaggle.png
+        content: An in-depth document analyzing the correlation between Winrate and Champion difficulty accross different rank brackets in League of Legends.
+        image: images/projects/KaggleFinal.png
         badges:
           - "Python"
           - "Jupyter"
