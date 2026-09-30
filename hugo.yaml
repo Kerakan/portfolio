@@ -270,7 +270,7 @@ params:
     items:
       - title: Project R10T
         content: A combat sandbox for testing team compositions, trait synergies and balance, with 17 champions and JSON-driven stats.
-        image: /portfolio/images/projects/R10T.png
+        image: /portfolio/images/projects/R10t.gif
         featured:
           name: Design Document
           link: https://docs.google.com/document/d/1EeU8LJFuWkg7gfx0_Hr1OFPyF6nPJxrEI5vQ37Ab4Ww/edit?usp=drivesdk&authuser=nacho.bueno.egea%40gmail.com
@@ -280,7 +280,7 @@ params:
           - "Game Design"
         links:
           - icon: fab fa-github
-            url: https://github.com/Kerakan/R10t.gif
+            url: https://github.com/Kerakan/R10T
       - title: "911 What's Your Emergency?"
         content: A five-minute horror game where seven emergency calls compete for your attention while a threat stalks your office.
         image: images/projects/911.png
