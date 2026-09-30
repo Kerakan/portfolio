@@ -88,8 +88,8 @@ params:
   hero:
     enable: true
     title: "Ignacio Bueno."
-    description: "Game Design Portfolio"
-    content: "Game Design Portfolio"
+    description: "Systems & Gameplay Design | Unity, C++, Godot"
+    content: "Systems & Gameplay Design | Unity, C++, Godot"
     image: /portfolio/images/IgnBueno.jpeg
     bottomImage:
       enable: true
@@ -111,6 +111,7 @@ params:
     enable: true
     title: "About Me"
     image: "/portfolio/images/IgnBueno2.jpeg"
+    roundImage: false
     content: |-
       I am a Third Year Student at the University of Seville pursuing a Double Bachelor's in Mathematics and Statistics. I spend my free time building systems and mechanics, treating programming mostly as a means to an end. I've built three game design projects.
 
