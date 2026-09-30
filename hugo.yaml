@@ -301,6 +301,9 @@ params:
           - "Python"
           - "Jupyter"
           - "Data Analysis"
+        featured:
+          name: Analysis Notebook
+          link: https://www.kaggle.com/code/ignaciobuenoegea/lol-champions-difficulty-and-winrate-patch-25-13
 
   #Contact
   contact:
