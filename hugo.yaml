@@ -90,7 +90,7 @@ params:
     title: "Ignacio Bueno."
     description: "Game Design Portfolio"
     content: "Game Design Portfolio"
-    image: /portfolio/images/GothTit.jpg
+    image: /portfolio/images/IgnBueno.jpeg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -110,7 +110,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/portfolio/images/me.png"
+    image: "/portfolio/images/IgnBueno2.jpeg"
     content: |-
       I am a Third Year Student at the University of Seville pursuing a Double Bachelor's in Mathematics and Statistics. I spend my free time building systems and mechanics, treating programming mostly as a means to an end. I've built three game design projects.
 
