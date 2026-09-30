@@ -259,7 +259,6 @@ params:
           name: "University of Seville"
           url: "https://www.us.es/"
         date: "September 2024 - Present"
-        GPA: "6.93 out of 10.0"
         content: |-
           Extracurricular Activities
             - Member of the Algorithm Club, participated in local ICPC-style tournaments.
@@ -275,7 +274,7 @@ params:
         school:
           name: "IES Antonio Gala."
           url: ""
-        GPA: "9.6 out of 10.0"
+        GPA: "9.6 out of 10.0, EBAU 13.261/14"
         content: |-
           Extracurricular Activities
             - Member of the CanSAT team, which achieved an award at the state competition.
